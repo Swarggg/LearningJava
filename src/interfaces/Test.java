@@ -10,9 +10,9 @@ public class Test {
         animal1.showInfo();
         person1.showInfo();
         */
-       // Infi infi1 = new Animal(21);
+        Infi infi1 = new Animal(21);
 
-        //infi1.showInfo();
+        infi1.showInfo();
 
         OutputInfi(person1);
 
