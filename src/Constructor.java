@@ -1,8 +1,6 @@
 public class Constructor {
     public static void main(String[] args) {
         HumanInConstr worker1 = new HumanInConstr("Boris", 24);
-
-
     }
 }
 
@@ -12,7 +10,8 @@ class HumanInConstr {
 
     public static String description; //статическая переменная класса HumanInConstr
 
-    public HumanInConstr (String name, int age) {                 //конструктор класса
+    //конструктор класса
+    public HumanInConstr (String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -26,7 +25,7 @@ class HumanInConstr {
     }
 
     //getters
-   /*public String getName () {
+   public String getName () {
         return name;
     }
     public int getAge () {
@@ -36,5 +35,5 @@ class HumanInConstr {
     //methods
     public void getInfo () {
         System.out.println("Человека зовут "+getName()+", ему "+getAge()+" лет.");
-     } */
+     }
 }
