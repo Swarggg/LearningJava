@@ -1,4 +1,4 @@
-public class Arrays {
+public class ArraysTraning {
     public static void main (String[] args) {
         int[] apartmentsPayed = new  int[100];
         apartmentsPayed[23] = 700;
