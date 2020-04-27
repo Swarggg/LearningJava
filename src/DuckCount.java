@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class DuckCount {
@@ -60,10 +61,16 @@ public class DuckCount {
         System.out.println("\n");
 
         //third method of duck creation
-
-
-
-        //System.out.println(duck4.getCountDuck());
+        ArrayList<DuckCount> ducksArLi = new ArrayList<>();
+        for (int i=0 ; i<4 ; i++) {
+            DuckCount duck= new DuckCount();
+            duck.setSize((i+1)*10);
+            ducksArLi.add(duck);
+        }
+        for (DuckCount du : ducksArLi){
+            System.out.println("Размер "+du.getCountDuck()+"-й утки равен "+du.getSize());
+        }
+        System.out.println(DuckCount.countDuck+" ducks were created");
     }
 
 }
