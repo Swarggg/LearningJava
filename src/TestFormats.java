@@ -16,6 +16,5 @@ public class TestFormats {
         String today = String.format("%tA, %td %tB %tY %<tH:%<tM", td, td, td, td); // знак < заставлет использовать предыдущий аргумент td
         System.out.println(today);
 
-
     }
 }

@@ -18,7 +18,7 @@ public class TestCalendar {
         System.out.println("Roll time for 32 days: "+cal.getTime());
 
         cal.set(cal.DATE, 1);
-        System.out.println("Set day in 1: "+cal.getTime());
+        System.out.println("Set day in 1: "+cal.getTime()); 
 
     }
 

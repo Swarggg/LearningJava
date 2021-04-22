@@ -8,7 +8,7 @@ public class ArraysTraning {
         for (int i=0; i<apartmentsPayed.length; i++) {        // в apartmentsPayed.length часть .length вычисляет длину массива
             if (apartmentsPayed[i]>0) {
 
-                System.out.println("Apart #" + i + " payed $" + apartmentsPayed[i]);
+                System.out.println("Apart #" + i + " payed \t$" + apartmentsPayed[i]);
             }
         }
     }
